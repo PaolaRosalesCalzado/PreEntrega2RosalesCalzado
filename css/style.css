@@ -491,50 +491,10 @@ body .ir-arriba {
     -webkit-text-stroke: 1px brown;
 }
 
-.promociones h1 {
-    font-weight: 400;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 40px;
-    color: brown;
-    font-family: 'Noto Serif JP', 'Source Serif Pro', Georgia, 'Times New Roman', Times, serif;
-    text-shadow: black 0.01em 0.01em 0.01em;
-}
-
-.promociones h3 {
-    text-align: center;
-}
-
-.ofertas h3 {
-    text-align: center;
-    margin: 30px 0px;
-}
-
-.ofertas hr{
-    border-top: 3px solid rgba(0,0,0);
-}
-
-.promociones img{
-    width: 100%;
-    height: 40vh;
-    object-fit: cover;
-}
-
-.ofertas .precio{
-    color:red;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.ofertas h5{
-    font-weight: bold;
-}
-
 
 .galeria-imagenes {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    width: 80%;
     margin: auto;
     grid-gap: 50px;
     overflow: hidden;
@@ -659,6 +619,49 @@ body .ir-arriba {
     font-family: 'Secular One', sans-serif, 'Source Serif Pro', serif, 'Noto Serif JP', serif;
     -webkit-text-stroke: 1px brown;
 
+}
+
+
+
+/*Pagina 4- Promociones*/
+
+.promociones h1 {
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+    color: brown;
+    font-family: 'Noto Serif JP', 'Source Serif Pro', Georgia, 'Times New Roman', Times, serif;
+    text-shadow: black 0.01em 0.01em 0.01em;
+}
+
+.promociones h3 {
+    text-align: center;
+}
+
+.ofertas h3 {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.ofertas hr{
+    border-top: 3px solid rgba(0,0,0);
+}
+
+.promociones img{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.ofertas .precio{
+    color:red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ofertas h5{
+    font-weight: bold;
 }
 
 
